@@ -1,0 +1,28 @@
+{
+  "name": "hr_console_is",
+  "version": "1.0.0",
+  "description": "HR Console Core Integration API",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HR",
+    "Console",
+    "API"
+  ],
+  "author": "Steven",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
